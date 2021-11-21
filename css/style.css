@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f5f7;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  font-family: "MCW XX",sans-serif;
+  font-weight: 400;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.wrapper {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  padding: 30px 20px 40px;
+  text-align: center;
+}
+
+.logo {
+  width: 40%;
+  margin-bottom: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 21px;
+  color: #0e0e0f;
+  line-height: 24px;
+  margin-top: 0px;
+  font-family: Golos,sans-serif;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.status {
+  background-color: #13a14f;
+  padding: 22px 30px;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.status-value {
+  background-color: #fff;
+  padding: 6px 36px;
+  border-radius: 16px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+
+.user-name, .birthday, .validity {
+  margin-bottom: 6px;
+  font-weight: 500;
+  line-height: 1.1;
+  font-size: 18px;
+}
+
+.second {
+  font-weight: 500;
+  line-height: 1.1;
+  font-size: 18px;
+}
